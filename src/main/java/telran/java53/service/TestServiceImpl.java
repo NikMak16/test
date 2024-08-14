@@ -9,7 +9,9 @@ public class TestServiceImpl implements TestService {
 
 	@Override
 	public Object read() {
-		// TODO Auto-generated method stub
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Numner " + i);
+		}
 		return null;
 	}
 
