@@ -4,8 +4,7 @@ public class TestServiceImpl implements TestService {
 
 	@Override
 	public Object create(Object object) {
-		// TODO Auto-generated method stub
-		return null;
+		return new Object();
 	}
 
 	@Override
