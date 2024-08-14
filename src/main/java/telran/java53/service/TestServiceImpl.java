@@ -9,7 +9,9 @@ public class TestServiceImpl implements TestService {
 
 	@Override
 	public Object read() {
-		// TODO Auto-generated method stub
+		System.out.println("print 1");
+		System.out.println("print 2");
+		System.out.println("print 3");
 		return null;
 	}
 
